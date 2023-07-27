@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ mymember.author}}</title>
+</head>
+<body>
+
+<h1>{{ mymember.author}}</h1>
+  
+<p>title: {{ mymember.title }}</p>
+<p>content: {{ mymember.content }}</p>
+<p>date_posted: {{ mymember.date_posted }}</p>
+
+<hr>
+
+<p>Back to <a href="{% url 'club:getdata'%}">Club members</a></p>
+
+</body>
+</html>                  
